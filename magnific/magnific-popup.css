@@ -1,0 +1,978 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.title-text{
+    font-size: 40px;
+    text-align: center;
+}
+body{
+    font-family: 'Baloo Chettan 2', cursive;
+    line-height: 1.5;
+}
+/*navbar*/
+#menu-bar{
+    width: 50px;
+    height: 10px;
+    margin: 50px 10px 10px 20px;
+    position:fixed;
+    cursor: pointer;
+    z-index: 1;
+}
+  
+.bar{
+    background:orange;
+    border-radius: 10%;
+    transition: .4s;
+}
+#bar1{
+    width:40px;
+    height: 10px;
+    transform: translateY(-4px);
+}
+#bar2{
+    width: 40px;
+    height: 10px;
+}
+#bar3{
+    width: 40px;
+    height: 10px;
+    transform: translateY(4px);
+}
+.change .bar{
+    background: #fff;
+}
+.change #bar1{
+    transform: translateY(6px);
+    rotate: z(45deg);
+}
+.change #bar3{
+    transform: translateY(-15px);
+    rotate: z(-45deg);
+}
+.change #bar2{
+    opacity: 0;
+}
+.nav li a{
+    text-decoration: none;
+    color: orange;
+    font-size: 30px;
+    text-transform:uppercase ;
+    font-weight: bold;
+   
+}
+.nav li a:hover{
+    color: #fff;
+    background: orange;
+    padding-left: 10px;
+}
+.nav li{
+    margin: 20px 10px 10px 20px;
+    padding-top: 10px;
+    list-style-type:none;
+}
+.nav{
+    display: none;
+    
+}
+.change-btn{
+    display: block;
+}
+
+/*header*/
+.header{
+   /* display: flex;*/
+    min-height: 100vh;
+     background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
+     url('../images/portada.jpg')center/cover no-repeat fixed;
+    /* flex-direction: column;*/
+    margin-top: auto; 
+}
+/*redes sociales*/
+.instagram1{
+    position: absolute;
+    margin-top: 25%;
+    margin-right: 47%;
+    color: transparent;
+    font-size: 20px;
+}
+.instagram1:hover{
+    color: transparent;
+}
+.facebook1{
+    position: absolute;
+    margin-top: 63%;
+    margin-right: 35%;
+    font-size: 28px;
+    color: transparent;
+}
+.facebook1:hover{
+    color: transparent;
+}
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100%;
+}
+.hero .title{
+    color: #fff;
+    font-size: 50px;
+}
+.hero-button{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    background: orange;
+    color:#fff;
+    cursor: pointer;
+    border: 2px solid orange;
+    margin-top: 140%;
+  
+}
+.hero-button:hover{
+    background: #fff;
+    color: orange;
+    border: none;
+    
+
+}
+.pulsate{
+    /*-webkit-*/animation: pulsate 3s ease-in-out;
+    /*-webkit-*/animation-iteration-count:infinite ;
+    opacity: .3;
+    color: black;
+}
+@-webkit-keyframes pulsate{
+    0% {
+        opacity: .3;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: .3;
+    }
+
+}
+
+/* End of header*/
+/*==========About Section============*/
+#about{
+    padding: 40px;
+    margin-bottom: 25%;
+}
+
+.about{
+    margin: 30px 0;
+    display: flex;
+}
+.about-icon .fas{
+    font-size: 60px;
+    color: orange;
+    margin-right: 20px;
+}
+.about-subtitle{
+    text-transform: capitalize;
+    color: orange;
+    font-size: 25px;
+}
+.about-info{
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.about-icon:hover .fas,
+.about-subtitle:hover{
+ transition: transform 2s ease, color 2s ease;
+ transform: translateY(-10px);
+    color: #cd6100;
+    cursor: pointer;
+}
+@media screen and (min-width: 576px){
+    .about-center{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .about{
+        flex: 0 0 calc(50% - 16px);
+    }
+}
+@media screen and (min-width:972px){
+    .about{
+        flex: 0 0 calc(33.3% - 16px);
+    }
+}
+/*=====end of Icon Section======*/
+/*=====Menu Section======*/
+.menu-image{
+    min-height: 80vh;
+    background: url('../images/churro.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image2{
+    min-height: 80vh;
+    background: url('../images/cafe1.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image3{
+    min-height: 80vh;
+    background: url('../images/cafe2.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image4{
+    min-height: 80vh;
+    background: url('../images/Alimentos\ 1_page-0001.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image5{
+    min-height: 80vh;
+    background: url('../images/Alimentos\ 2_page-0001.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image6{
+    min-height: 80vh;
+    background: url('../images/Alimentos\ 3_page-0001.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image7{
+    min-height: 80vh;
+    background: url('../images/bebidas.jpg') center/cover ;
+    margin-bottom: 25%;
+}
+.menu-image8{
+    min-height: 80vh;
+    background: url('../images/baresito.jpg') center/cover no-repeat fixed ;
+    margin-bottom: 25%;
+}
+.menu-image9{
+    min-height: 80vh;
+    background: url('../images/cocteleria.jpg') center/cover  ;
+    margin-bottom: 25%;
+}
+.menu-image10{
+    min-height: 80vh;
+    background: url('../images/cheve.jpg') center/cover  ;
+    margin-bottom: 25%;
+}
+.menu-image11{
+    min-height: 80vh;
+    background: url('../images/final.jpg') center/cover no-repeat fixed ;
+    
+}
+/*foto de chai */
+.chaifoto{
+    position: absolute;
+    margin-top: 124%;
+    margin-left: 12%;
+    font-size: 21px;
+    color: transparent;
+}
+.achaifoto{
+    color: transparent;
+    text-decoration: none;
+    background-color: transparent;
+}
+.achaifoto:hover {
+    color: transparent;
+    text-decoration: underline;
+}
+.imgchai{
+    width: 90%;
+}
+/*fin de foto de chai*/
+/*foto de prensa francesa*/
+.fotoprensafrancesa{
+    position: absolute;
+    margin-top: 49%;
+    margin-left: 42%;
+    font-size: 25px;
+    color: transparent;
+}
+.prensaf{
+    color: transparent;
+}
+.prensaf:hover{
+    color: transparent;
+}
+.imgprensafrancesa{
+    width: 90%;
+}
+/*fin de foto de prensa francesa*/
+/*foto late*/
+.fotolatte{
+    position: absolute;
+    margin-top: 119%;
+    margin-left: 12%;
+    font-size: 18px;
+    color: transparent;
+}
+.afotolatte{
+    color: transparent;
+}
+.afotolatte:hover{
+    color: transparent;
+}
+.imglatte{
+    width: 90%;
+}
+/*fin de foto de late*/
+/*foto de affogato*/
+    .fotoaffogato{
+        position: absolute;
+        margin-top: 76%;
+        margin-left: 13%;
+        font-size: 16px;
+        color: transparent;
+    }
+    .affogato{
+        color: transparent;
+    }
+    .affogato:hover{
+        color: transparent;
+    }
+    .imgaffogato{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de affogato*/
+/* foto capuccino*/
+    .fotocapuccinog{
+        position: absolute;
+        margin-top: 38%;
+        margin-left: 12%;
+        font-size: 18px;
+        color: transparent;
+    }
+    .acapuccinog{
+        color: transparent;
+    }
+    .acapuccinog:hover{
+        color: transparent;
+    }
+    .imgcappucinog{
+        width: 90%;
+        margin-left: 5%;
+    }
+/* fin de foto capuccino*/
+/*foto de moca*/
+    .fotomoca{
+        position: absolute;
+        margin-top: 31%;
+        margin-left: 17%;
+        font-size: 21px;
+        color: transparent;
+    }
+    .amoca{
+        color: transparent;
+    }
+    .amoca:hover{
+        color: transparent;
+    }
+    .imgmoca{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin foto moca*/
+/*foto chilaquiles*/
+    .fotochilaquiles{
+        font-size: 17px;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 2%;
+    color: transparent;
+    }
+    .achilaquiles{
+        color: transparent;
+    }
+    .achilaquiles:hover{
+        color: transparent;
+    }
+    .imgchilaquiles{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de chilaquiles*/
+/*foto molletes*/
+    .fotomollete{
+        position: absolute;
+        font-size: 18px;
+        margin-top: 64%;
+        margin-left: 2%;
+        color: transparent;
+    }
+    .amollete{
+        color: transparent;
+    }
+    .amollete:hover{
+        color: transparent;
+    }
+    .imgmollete{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto molletes*/
+/* foto chimichangas*/
+    .fotochimichanga{
+        font-size: 19px;
+        position: absolute;
+        margin-top: 113%;
+        margin-left: 2%;
+        color: transparent;
+    }
+    .achimichangas{
+        color: transparent;
+    }
+    .achimichangas:hover{
+        color: transparent;
+    }
+    .imgchimichangas{
+        width: 90%;
+        margin-left: 5%;
+    }
+/* fin de foto de chimichangas*/
+/*foto de bruchetta*/ 
+    .fotobruchetta{
+        font-size: 18px;
+        position: absolute;
+        margin-top: 4%;
+        margin-left: 3%;
+        color: transparent;
+    }
+    .abruchetta{
+        color: transparent;
+    }
+    .abruchetta:hover{
+        color: transparent;
+    }
+    .imgbruchetta{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de bruchetta*/
+/*foto de gorditas*/
+    .fotogorditas{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 19%;
+        margin-left: 4%;
+        color: transparent;
+    }
+    .agorditas{
+        color: transparent;
+    }
+    .agorditas:hover{
+        color: transparent;
+    }
+    .imggorditas{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de gorditas*/
+/* foto taco veggi */
+    .fototacov{
+        font-size: 18px;
+        position: absolute;
+        margin-top: 88%;
+        margin-left: 4%;
+        color: transparent;
+    }
+    .atacov{
+        color: transparent;
+    }
+    .atacov:hover{
+        color: transparent;
+    }
+    .imgtacov{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+/* fin de taco veggi*/
+/*foto de torta lili*/
+    .fototortal{
+        font-size: 20px;
+    position: absolute;
+    margin-top: 112%;
+    margin-left: 4%;
+    color: transparent;
+    }
+    .atortal{
+        color: transparent;
+    }
+    .atortal:hover{
+        color: transparent;
+    }
+    .imgtortal{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto torta lili*/
+/*foto de omelette*/
+    .fotoomelette{
+        font-size: 19px;
+        position: absolute;
+        margin-top: 24%;
+        margin-left: 3%;
+        color: transparent;
+    }
+    .aomelette{
+        color: transparent;
+    }
+    .aomelette:hover{
+        color: transparent;
+    }
+    .imgomelette{
+        width: 90%;
+        margin-left: 5%;
+    }
+
+/*fin de foto de omelette*/
+/*dip de requeson foto*/
+    .fotodipr{
+        font-size: 18px;
+        position: absolute;
+        margin-top: 164%;
+        color: transparent;
+    }
+    .adipr{
+        color: transparent;
+    }
+    .adipr:hover{
+        color: transparent;
+    }
+    .imgdipr{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de dip de requeson*/
+/*foto de enchilada*/
+    .fotoenchiladas{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 3%;
+        color: transparent;
+    }
+    .aenchiladas{
+        color: transparent;
+    }
+    .aenchiladas:hover{
+        color: transparent;
+    }
+    .imgenchiladas{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de enchiladas*/
+/*foto de soda italiana*/
+    .fotosodai{
+        font-size: 18px;
+        position: absolute;
+        margin-top: 133%;
+        margin-left: 5%;
+        color: transparent;
+    }
+    .asodai{
+        color: transparent;
+    }
+    .asodai:hover{
+        color: transparent;
+    }
+    .imgsodai{
+        width: 90%;
+        margin-left: 5%;
+    }
+/* fin de foto de soda italiana*/
+/*foto de carajillo*/
+    .fotocarajillo{
+        font-size: 18px;
+        position: absolute;
+        margin-top: 39%;
+        margin-left: 5%;
+        color: transparent;
+    }
+    .acarajillo{
+        color: transparent;
+    }
+    .acarajillo:hover{
+        color: transparent;
+    }
+    .imgcarajillo{
+        width: 90%;
+        margin-left: 5%;
+    }
+/*fin de foto de carajillo*/
+    /*foto de gin tonic*/
+        .fotogintonic{
+            font-size: 17px;
+        position: absolute;
+        margin-top: 66%;
+        margin-left: 6%;
+        color: transparent;
+        }
+        .agintonic{
+            color: transparent;
+        }
+        .agintonic:hover{
+            color: transparent;
+        }
+        .imggintonic{
+            width: 90%;
+            margin-left: 5%;
+        }
+    /*fin de foto de gin tonic*/
+    /* foto de aperol sprit*/
+        .fotoaperol{
+            font-size: 17px;
+        position: absolute;
+        margin-top: 88%;
+        margin-left: 37%;
+        color: transparent;
+        }
+        .aaperol{
+            color: transparent;
+        }
+        .aaperol:hover{
+            color: transparent;
+        }
+        .imgaperol{
+            width: 90%;
+            margin-left: 5%;
+        }
+
+    /* fin de foto aperol sprit*/
+    /* foto de tequila de rosas*/
+        .fototequilar{
+            font-size: 15px;
+        position: absolute;
+        margin-top: 101%;
+        margin-left: 37%;
+        color: transparent;
+        }
+        .atequilar{
+            color: transparent;
+        }
+        .atequilar:hover{
+            color: transparent;
+        }
+        .imgtequilar{
+            width: 90%;
+            margin-left: 5%;
+        }
+
+    /* fin de foto de tequila de rosas */
+        /*foto de tequila de mango*/
+            .fototequilam{
+                font-size: 18px;
+                margin-top: 108%;
+                position: absolute;
+                margin-left: 37%;
+                color: transparent;
+            }
+            .atequilam{
+                color: transparent;
+            }
+            .atequilam:hover{
+                color: transparent;
+            }
+            .imgtequilam{
+                width: 90%;
+                margin-left: 5%;
+            }
+        /* fin de foto de tequila de mango */
+        /* foto de la coqueta*/
+            .fotolacoqueta{
+                font-size: 18px;
+                position: absolute;
+                margin-top: 127%;
+                margin-left: 37%;
+                color: transparent;
+            }
+            .alacoqueta{
+                color: transparent;
+            }
+            .alacoqueta:hover{
+                color: transparent;
+            }
+            .imglacoqueta{
+                width: 90%;
+                margin-left: 5%;
+            }
+        /*fin de la foto de la coqueta*/
+.menu-text{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background: orange;
+    columns: #0000;
+    padding: 40px 0;
+}
+.menu-text-center{
+    width: 90%;
+    margin: 0 auto;
+}
+.menu-color{
+    color: transparent;
+}
+.menu-text h1{
+    font-size: 40px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.menu-text p{
+    margin: 20px 0;
+    line-height: 2;
+}
+.menu-text a{
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 13px 20px;
+    border-radius: 200px;
+    font-weight: bold;
+    background: rgb(10, 10, 10);
+    color:orange;
+    cursor: pointer;
+    border: 2px solid #000;
+    margin-top:10px;
+}
+.menu-text a:hover{
+    color:orange;
+    background: #fff;
+    border:none;
+
+}
+@media screen and (min-width:776px){
+    .menu{
+        display: flex;
+    }
+    .menu-text{
+        flex: 0 0 30%;
+    }
+    .menu-image{
+        flex: 0 0 70%;
+        clip-path: polygon(0 0, 100% 0, 50% 100%, 0 100%)
+    }
+    .menu{
+        background: orange;
+    }
+}
+/*========End of Menu Section====*/
+
+
+/*==========Social Icons====*/
+
+#social-icons{
+ height: 150px;
+   background:#000;
+    text-align: center;
+   /* clip-path: polygon(0 0, 100% 0, 100% 100%, 0 40%);*/
+    padding: 50px 0 50px 0;
+}
+#social-icons a{
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 0 5px;
+    font-size: 40px;
+    border-radius:5px;
+    transition: transform 2s ease, color 2s ease;
+}
+#social-icons a:hover{
+    transform: translateY(-20px);
+}
+.facebook{
+    color: #3b5998;
+}
+.twitter{
+  color:  #38A1F3;
+}
+.instagram{
+ color:   #e1306c;
+}
+.plus{
+    color:#db4a39;
+}
+/*====end of Social Icons======*/
+/*==========Numbers/ Counters=======*/
+.number{
+    text-align: center;
+    background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),
+     url('./images/background.jpg') center/cover fixed no-repeat;
+    padding: 60px 0;
+    color:#fff;
+ }
+ .number p{
+     font-size: 30px;
+     font-weight: bold;
+ }
+.number:hover{
+    color: orange;
+}
+.number .fas{
+    font-size: 60px;
+    margin: 20px 0;
+}
+.number h3{
+    text-transform: uppercase;
+}
+@media screen and (min-width:576PX){
+    #numbers {
+        display: grid;
+    grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width: 992px){
+    #numbers{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+/*==========Cards Section========*/
+#food{
+    padding: 20px ;
+}
+.food-container{
+     max-width: 90vw;
+    margin: 0 auto;
+}
+.food-card{
+    position: relative;
+    background: linear-gradient(rgba(205, 96, 0, 0.7),rgba(205,96,0,0.7));
+    margin:20px 0;
+    color: #000;
+    overflow: hidden;
+    padding: 3px;
+    border-radius: 16px;
+    border: 1px solid orange;
+    box-shadow: 2px 3px 1px 1px #cd6100;
+}
+
+#food img{
+    width: 100%;
+    min-height: 100%;
+    display: block;
+    transition: transform 4s;
+}
+
+.img-text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    opacity: 0;
+    transition: opacity 4s;
+
+}
+.img-footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 20px;
+    opacity: 0;
+    color: #000;
+    transition: opacity 4s;
+}
+.img-text h1{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.food-card:hover img{
+    opacity: 0.4;
+    transform: scale(1.3);
+}
+.food-card:hover .img-text,
+.food-card:hover  .img-footer{
+    opacity:1;
+}
+.food-btn{
+    display: inline-block;
+    background:#000;
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 12px 32px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 180px;
+    cursor: pointer;
+    margin-top: 16px;
+    transition: all 0.3s ease-in-out;
+    font-size:18px;
+    outline:none;
+}
+.food-btn:hover{
+    color: orange;
+    background:#ffff;
+    border: #000;
+    outline: none;
+}
+.fas{
+    font-size: 30px;
+}
+@media screen and (min-width: 576px){
+    .food-container{
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-column-gap: 16px;
+    }
+}
+@media screen and (min-width: 992px){
+    .food-container{
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-column-gap:16px ;
+    }
+}
+/*========End of Cards Section=======*/
+/*=========Gallery Section============*/
+#gallery{
+    padding: 40px;
+    background: #fff;
+}
+.gallery-item{
+    background: linear-gradient(rgb(rgba(241, 161, 13)) rgb(rgb(255, 165, 0)));
+}
+.gallery-item img{
+    display:block;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 2s ease;
+}
+.gallery-item img:hover{
+    opacity: 0.5;
+}
+@media screen and (min-width:576px){
+    #gallery-center{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+@media screen and (min-width:992px){
+    #gallery-center{
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/*==========Footer========*/
+.footer{
+    background:#000;
+    text-align: center;
+}
+.footer .text{
+text-transform: uppercase;
+color: #fff;
+font-size: 24px;
+margin-top: -1px;
+}
