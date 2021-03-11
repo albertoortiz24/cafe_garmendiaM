@@ -10,6 +10,7 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
+           
 }
 .title-text{
     font-size: 40px;
@@ -18,6 +19,7 @@
 body{
     font-family: 'Baloo Chettan 2', cursive;
     line-height: 1.5;
+    
 }
 /*navbar*/
 #menu-bar{
@@ -320,10 +322,12 @@ body{
     color: transparent;
     text-decoration: none;
     background-color: transparent;
+    -webkit-appearance: none;
 }
 .achaifoto:hover {
     color: transparent;
     text-decoration: underline;
+    -webkit-appearance: none;
 }
 .imgchai{
     width: 90%;
@@ -339,9 +343,11 @@ body{
 }
 .prensaf{
     color: transparent;
+    -webkit-appearance: none;
 }
 .prensaf:hover{
     color: transparent;
+    -webkit-appearance: none;
 }
 .imgprensafrancesa{
     width: 90%;
@@ -357,9 +363,11 @@ body{
 }
 .afotolatte{
     color: transparent;
+    -webkit-appearance: none;
 }
 .afotolatte:hover{
     color: transparent;
+    -webkit-appearance: none;
 }
 .imglatte{
     width: 90%;
@@ -375,9 +383,11 @@ body{
     }
     .affogato{
         color: transparent;
+        -webkit-appearance: none;
     }
     .affogato:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgaffogato{
         width: 90%;
@@ -394,9 +404,11 @@ body{
     }
     .acapuccinog{
         color: transparent;
+        -webkit-appearance: none;
     }
     .acapuccinog:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgcappucinog{
         width: 90%;
@@ -413,9 +425,11 @@ body{
     }
     .amoca{
         color: transparent;
+        -webkit-appearance:none;
     }
     .amoca:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgmoca{
         width: 90%;
@@ -432,9 +446,11 @@ body{
     }
     .achilaquiles{
         color: transparent;
+        -webkit-appearance: none;
     }
     .achilaquiles:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgchilaquiles{
         width: 90%;
@@ -451,9 +467,11 @@ body{
     }
     .amollete{
         color: transparent;
+        -webkit-appearance: none;
     }
     .amollete:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgmollete{
         width: 90%;
@@ -470,9 +488,11 @@ body{
     }
     .achimichangas{
         color: transparent;
+        -webkit-appearance: none;
     }
     .achimichangas:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgchimichangas{
         width: 90%;
@@ -489,9 +509,11 @@ body{
     }
     .abruchetta{
         color: transparent;
+        -webkit-appearance: none;
     }
     .abruchetta:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgbruchetta{
         width: 90%;
@@ -508,9 +530,11 @@ body{
     }
     .agorditas{
         color: transparent;
+        -webkit-appearance: none;
     }
     .agorditas:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imggorditas{
         width: 90%;
@@ -527,9 +551,11 @@ body{
     }
     .atacov{
         color: transparent;
+        -webkit-appearance: none;
     }
     .atacov:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgtacov{
         width: 90%;
@@ -547,9 +573,11 @@ body{
     }
     .atortal{
         color: transparent;
+        -webkit-appearance: none;
     }
     .atortal:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgtortal{
         width: 90%;
@@ -566,9 +594,11 @@ body{
     }
     .aomelette{
         color: transparent;
+        -webkit-appearance: none;
     }
     .aomelette:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgomelette{
         width: 90%;
@@ -588,9 +618,11 @@ body{
     }
     .adipr{
         color: transparent;
+        -webkit-appearance: none;
     }
     .adipr:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgdipr{
         width: 90%;
@@ -607,9 +639,11 @@ body{
     }
     .aenchiladas{
         color: transparent;
+        -webkit-appearance: none;
     }
     .aenchiladas:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgenchiladas{
         width: 90%;
@@ -626,9 +660,11 @@ body{
     }
     .asodai{
         color: transparent;
+        -webkit-appearance: none;
     }
     .asodai:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgsodai{
         width: 90%;
@@ -645,9 +681,11 @@ body{
     }
     .acarajillo{
         color: transparent;
+        -webkit-appearance: none;
     }
     .acarajillo:hover{
         color: transparent;
+        -webkit-appearance: none;
     }
     .imgcarajillo{
         width: 90%;
@@ -664,9 +702,11 @@ body{
         }
         .agintonic{
             color: transparent;
+            -webkit-appearance: none;
         }
         .agintonic:hover{
             color: transparent;
+            -webkit-appearance: none;
         }
         .imggintonic{
             width: 90%;
@@ -683,9 +723,11 @@ body{
         }
         .aaperol{
             color: transparent;
+            -webkit-appearance: none;
         }
         .aaperol:hover{
             color: transparent;
+            -webkit-appearance: none;
         }
         .imgaperol{
             width: 90%;
@@ -703,9 +745,11 @@ body{
         }
         .atequilar{
             color: transparent;
+            -webkit-appearance: none;
         }
         .atequilar:hover{
             color: transparent;
+            -webkit-appearance: none;
         }
         .imgtequilar{
             width: 90%;
@@ -723,9 +767,11 @@ body{
             }
             .atequilam{
                 color: transparent;
+                -webkit-appearance: none;
             }
             .atequilam:hover{
                 color: transparent;
+                -webkit-appearance: none;
             }
             .imgtequilam{
                 width: 90%;
@@ -742,9 +788,11 @@ body{
             }
             .alacoqueta{
                 color: transparent;
+                -webkit-appearance: none;
             }
             .alacoqueta:hover{
                 color: transparent;
+                -webkit-appearance: none;
             }
             .imglacoqueta{
                 width: 90%;
