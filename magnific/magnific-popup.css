@@ -103,13 +103,14 @@ body{
    /* display: flex;*/
     min-height: 100vh;
      background:-webkit-gradient(linear,left top, left bottom,from(rgba(0,0,0,0.3)),to(rgba(0,0,0,0.4))),
-     url('../images/portada.jpg')center/cover no-repeat fixed;
+     url('../images/portada.jpg')center/cover ;
      background:-o-linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('../images/portada.jpg')center/cover no-repeat fixed;
+     url('../images/portada.jpg')center/cover ;
      background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.4)),
-     url('../images/portada.jpg')center/cover no-repeat fixed;
+     url('../images/portada.jpg')center/cover ;
     /* flex-direction: column;*/
     margin-top: auto; 
+    /* background: url('../images/Alimentos\ 3_page-0001.jpg') center/cover ;*/
 }
 /*redes sociales*/
 .instagram1{
@@ -304,7 +305,7 @@ body{
 }
 .menu-image11{
     min-height: 80vh;
-    background: url('../images/final.jpg') center/cover no-repeat fixed ;
+    background: url('../images/final.jpg') center/cover  ;
     
 }
 /*foto de chai */
