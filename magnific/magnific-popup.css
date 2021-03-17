@@ -1379,6 +1379,8 @@ margin-top: -1px;
   and (orientation: landscape) { 
 
 }
+/*versio prueba*/
+
 /*iphone 11 pro max*/
 @media only screen 
     and (device-width: 446px) 
@@ -1414,4 +1416,14 @@ margin-top: -1px;
             color: transparent;
         }
 
+     }
+
+@media only screen 
+    and (device-width: 438px) 
+    and (device-height: 884px) 
+     {
+        .menu-image4 {
+            min-height: 49rem;
+            
+        }
      }
