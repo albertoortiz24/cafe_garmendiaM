@@ -1302,7 +1302,61 @@ margin-top: -1px;
 @media only screen 
   and (min-device-width: 375px) 
   and (max-device-width: 667px) 
-  and (-webkit-min-device-pixel-ratio: 2) { 
+   { 
+    .menu-image {
+        min-height: 41rem;
+        background: url(../images/churro.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image2 {
+        min-height: 39rem;
+        background: url(../images/cafe1.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image3 {
+        min-height: 43rem;
+        background: url(../images/cafe2.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image4 {
+        min-height: 41rem;
+        background: url(../images/Alimentos\ 1_page-0001.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image5 {
+        min-height: 42rem;
+        background: url(../images/Alimentos\ 2_page-0001.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image6 {
+        min-height: 42rem;
+        background: url(../images/Alimentos\ 3_page-0001.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image7 {
+        min-height: 42rem;
+        background: url(../images/bebidas.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image8 {
+        min-height: 42rem;
+        background: url(../images/baresito.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image9 {
+        min-height: 43rem;
+        background: url(../images/cocteleria.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image10 {
+        min-height: 42rem;
+        background: url(../images/cheve.jpg) center/cover;
+        margin-bottom: 25%;
+    }
+    .menu-image11 {
+        min-height: 42rem;
+        background: url(../images/final.jpg) center/cover;
+    }
 
 }
 
@@ -1321,6 +1375,7 @@ margin-top: -1px;
   and (max-device-width: 667px) 
   and (-webkit-min-device-pixel-ratio: 2)
   and (orientation: landscape) { 
+      
 
 }
 
@@ -1330,8 +1385,37 @@ margin-top: -1px;
 @media only screen 
   and (min-device-width: 414px) 
   and (max-device-width: 736px) 
-  and (-webkit-min-device-pixel-ratio: 3) { 
+  { 
+      .menu-image{
+          min-height: 41rem;
+      }
+      .menu-image2{
+        min-height: 43rem;
+    }
+    .menu-image3{
+        min-height: 43rem;
+    }
+    .menu-image4{
+        min-height: 44rem;
+    }
+    .menu-image5{
+        min-height: 43rem;
+    }
+    .menu-image6{
+        min-height: 45rem;
+    }
+    .menu-image7{
+        min-height: 44rem;
+    }
+    .menu-image9{
+        min-height: 46rem;
+    }
+    .menu-image10{
+        min-height: 46rem;
+    }
 
+
+   
 }
 
 /* Portrait */
