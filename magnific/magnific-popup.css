@@ -257,7 +257,7 @@ body{
 /*=====Menu Section======*/
 .menu-image{
     min-height: 80vh;
-    background: url('../images/churro.jpg') center/cover ;
+    background: url('../images/churro.jpeg') center/cover ;
     margin-bottom: 25%;
 }
 .menu-image2{
@@ -272,12 +272,12 @@ body{
 }
 .menu-image4{
     min-height: 80vh;
-    background: url('../images/Alimentos\ 1_page-0001.jpg') center/cover ;
+    background: url('../images/Alimentos\ 1_page-0001.jpeg') center/cover ;
     margin-bottom: 25%;
 }
 .menu-image5{
     min-height: 80vh;
-    background: url('../images/Alimentos\ 2_page-0001.jpg') center/cover ;
+    background: url('../images/Alimentos\ 2_page-0001.jpeg') center/cover ;
     margin-bottom: 25%;
 }
 .menu-image6{
@@ -297,7 +297,7 @@ body{
 }
 .menu-image9{
     min-height: 80vh;
-    background: url('../images/cocteleria.jpg') center/cover  ;
+    background: url('../images/cocteleria.jpeg') center/cover  ;
     margin-bottom: 25%;
 }
 .menu-image10{
@@ -1118,7 +1118,7 @@ margin-top: -1px;
 @media  screen and (max-width:360px){
     .menu-image {
         min-height: 92vh;
-        background:  url(../images/churro.jpg) center/cover;
+        background:  url(../images/churro.jpeg) center/cover;
         margin-bottom: 25%;
         
     }
@@ -1134,12 +1134,12 @@ margin-top: -1px;
     }
     .menu-image4 {
         min-height: 80vh;
-        background: url(../images/Alimentos\ 1_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 1_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image5 {
         min-height: 83vh;
-        background: url(../images/Alimentos\ 2_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 2_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image6 {
@@ -1154,7 +1154,7 @@ margin-top: -1px;
     }
     .menu-image9 {
         min-height: 83vh;
-        background: url(../images/cocteleria.jpg) center/cover;
+        background: url(../images/cocteleria.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image10 {
@@ -1166,7 +1166,7 @@ margin-top: -1px;
 @media  screen and (min-width:411px){
     .menu-image {
         min-height: 92vh;
-        background:  url(../images/churro.jpg) center/cover;
+        background:  url(../images/churro.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image2 {
@@ -1181,12 +1181,12 @@ margin-top: -1px;
     }
     .menu-image4 {
         min-height: 80vh;
-        background: url(../images/Alimentos\ 1_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 1_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image5 {
         min-height: 83vh;
-        background: url(../images/Alimentos\ 2_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 2_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image6 {
@@ -1201,7 +1201,7 @@ margin-top: -1px;
     }
     .menu-image9 {
         min-height: 83vh;
-        background: url(../images/cocteleria.jpg) center/cover;
+        background: url(../images/cocteleria.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image10 {
@@ -1213,12 +1213,12 @@ margin-top: -1px;
 @media  screen and (min-width:522px){
     .menu-image4 {
         min-height: 80vh;
-        background: url(../images/Alimentos\ 1_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 1_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image5 {
         min-height: 83vh;
-        background: url(../images/Alimentos\ 2_page-0001.jpg) center/cover;
+        background: url(../images/Alimentos\ 2_page-0001.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image6 {
@@ -1233,7 +1233,7 @@ margin-top: -1px;
     }
     .menu-image9 {
         min-height: 83vh;
-        background: url(../images/cocteleria.jpg) center/cover;
+        background: url(../images/cocteleria.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image10 {
@@ -1472,7 +1472,7 @@ margin-top: -1px;
      {
         .menu-image4 {
             min-height: 49rem;
-            background: url(../images/Alimentos\ 1_page-0001.jpg) center/cover;
+            background: url(../images/Alimentos\ 1_page-0001.jpeg) center/cover;
             margin-bottom: 25%;
         }
         .menu-image7 {
@@ -1482,7 +1482,7 @@ margin-top: -1px;
         }
         .menu-image9 {
             min-height: 53rem;
-            background: url(../images/cocteleria.jpg) center/cover;
+            background: url(../images/cocteleria.jpeg) center/cover;
             margin-bottom: 25%;
         }
         .instagram1 {
