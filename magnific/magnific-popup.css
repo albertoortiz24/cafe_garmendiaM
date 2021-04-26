@@ -1399,7 +1399,7 @@ margin-top: -1px;
         min-height: 44rem;
     }
     .menu-image5{
-        min-height: 43rem;
+        min-height: 45rem;
     }
     .menu-image6{
         min-height: 45rem;
@@ -1470,10 +1470,19 @@ margin-top: -1px;
     and (device-width: 446px) 
     and (device-height: 896px) 
      {
+         .menu-image{
+             min-height: 45rem;
+         }
+         .menu-image2{
+             min-height: 45rem;
+         }
         .menu-image4 {
             min-height: 49rem;
             background: url(../images/Alimentos\ 1_page-0001.jpeg) center/cover;
             margin-bottom: 25%;
+        }
+        .menu-image5{
+            min-height: 50rem;
         }
         .menu-image7 {
             min-height: 84vh;
