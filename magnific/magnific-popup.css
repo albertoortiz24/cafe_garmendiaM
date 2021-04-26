@@ -267,7 +267,7 @@ body{
 }
 .menu-image3{
     min-height: 80vh;
-    background: url('../images/cafe2.jpg') center/cover ;
+    background: url('../images/cafe2.jpeg') center/cover ;
     margin-bottom: 25%;
 }
 .menu-image4{
@@ -1129,7 +1129,7 @@ margin-top: -1px;
     }
     .menu-image3 {
         min-height: 95vh;
-        background: url(../images/cafe2.jpg) center/cover;
+        background: url(../images/cafe2.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image4 {
@@ -1176,7 +1176,7 @@ margin-top: -1px;
     }
     .menu-image3 {
         min-height: 95vh;
-        background: url(../images/cafe2.jpg) center/cover;
+        background: url(../images/cafe2.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image4 {
@@ -1315,7 +1315,7 @@ margin-top: -1px;
     }
     .menu-image3 {
         min-height: 43rem;
-        background: url(../images/cafe2.jpg) center/cover;
+        background: url(../images/cafe2.jpeg) center/cover;
         margin-bottom: 25%;
     }
     .menu-image4 {
